@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Lucida Sans Unicode;
+}
+
+.card {
+  z-index: 3;
+}
+.main-card {
+  box-shadow: 0px 0px 12px -2px;
+  overflow: hidden;
+}
+.card-body {
+  z-index: 1;
+}
+.cards-container {
+  background-image: linear-gradient(
+    -48deg,
+    #d6d4dd 0%,
+    #c6bdd9 49.9%,
+    #fff 50%,
+    #fff 100%,
+    transparent
+  );
+}
+.cards-containers {
+  background-image: linear-gradient(
+    49deg,
+    #d6d4dd 0%,
+    #c6bdd9 49.9%,
+    #fff 50%,
+    #fff 100%,
+    transparent
+  );
+}
+.verify {
+  min-width: 100px;
+}
+
+h2 {
+  color: #666b88;
+}
+
+.text-color {
+  color: rgb(247 248 255);
+}
+.text-colors {
+  color: #1a2a4d;
+}
+.text-colorss {
+  color: #585858;
+}
+.text-icon {
+  color: rgb(36 52 74);
+}
+.bttn {
+  background-color: #2f5284;
+}
+.bttns {
+  background-color: #587caf;
+}
+
+.imgs {
+  border: 6px solid #fff;
+  margin-bottom: 10px;
+}
+img {
+  box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.5) !important;
+
+  z-index: 2;
+}
+.container .topside {
+  position: relative;
+}
+
+.container .topside::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-color: rgb(63 62 135 / 60%);
+  border-radius: 4px 4px 0px 0px;
+  top: 0;
+  transform: translateX(-11px);
+  height: 251px;
+  left: 11px;
+  background-image: linear-gradient(45deg, #cad3ff, transparent);
+}
+
+.afterone {
+  z-index: 1;
+  position: relative;
+  border-left: 3px solid rgb(91 84 151);
+  border-radius: 5px;
+}
+
+.hrline {
+  position: relative;
+}
+.hrline::after {
+  content: "";
+  position: absolute;
+  border-left: 2px solid rgb(187 199 191);
+  width: 100%;
+  height: 73%;
+  top: 119px;
+}
+.hrlinetwo {
+  position: relative;
+}
+.hrlinetwo::after {
+  content: "";
+  position: absolute;
+  border-left: 2px solid rgb(187 199 191);
+  width: 100%;
+  height: 72%;
+  top: 119px;
+}
+
+.container .circleline::before,
+.container .circleline::before {
+  content: "";
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #2f5284;
+  left: -29px;
+  top: 1rem;
+}
+.container .circleline::after,
+.container .circleline::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background-color: #2f5284;
+  top: 21px;
+  left: -19px;
+}
+
+.card.circleline.border {
+  transition: all 400ms ease-in-out;
+}
+.card.circleline.border:hover {
+  transform: translateY(-19px);
+}
+.backchnge:hover::after {
+  background-image: linear-gradient(45deg, #cad3ff, transparent);
+  color: white;
+  content: "";
+  width: 100%;
+  animation: mymove 1500ms ease-in-out;
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 0px;
+  border-radius: 5px;
+  height: 100%;
+}
+.backchnges:hover::after {
+  background-image: linear-gradient(45deg, rgb(202, 211, 255), #00000014);
+  color: #cfd9df;
+  content: "";
+  width: 100%;
+  animation: mymoves 1500ms;
+  position: absolute;
+  z-index: -2;
+  top: 250px;
+  bottom: 0;
+  left: 0px;
+  border-radius: 5px;
+}
+@keyframes mymove {
+  from {
+    transition: all 1500ms eas;
+    width: 0%;
+    background-image: linear-gradient(45deg, #cad3ff, transparent);
+  }
+  to {
+    width: 100%;
+    background-image: linear-gradient(45deg, #cad3ff, transparent);
+  }
+}
+@keyframes mymoves {
+  from {
+    width: 0%;
+    background-image: linear-gradient(45deg, rgb(202, 211, 255), #00000014);
+  }
+  to {
+    width: 100%;
+    background-image: linear-gradient(45deg, rgb(202, 211, 255), #00000014);
+  }
+}
