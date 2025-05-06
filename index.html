@@ -1,422 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>cv</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/Queries.css" />
-  </head>
-  <body>
-    <div class="container main">
-      <div
-        class="topbar d-flex align-items-center justify-content-between flex-wrap py-3"
-      >
-        <div class="Text-name">
-          <p class="m-0 fw-semibold">Sohail Akhtar Hussain Shaikh</p>
-        </div>
-        <div class="icons d-flex align-items-center gap-2">
-          <a href="https://twitter.com/Sohailnewbie"
-            ><i class="bi bi-twitter text-icon"></i
-          ></a>
-          <a href="https://www.facebook.com/sohailshaikhrock"
-            ><i class="bi bi-facebook text-icon"></i
-          ></a>
-          <a href="https://www.instagram.com/igsohaill/"
-            ><i class="bi bi-instagram text-icon"></i
-          ></a>
-          <a href=""><i class="bi bi-github text-icon"></i></a>
-        </div>
-      </div>
-
-      <div class="card mb-5 pb-5">
-        <div class="container topside px-5">
-          <div class="divider d-flex flex-wrap a pt-5 gap-5 mt-4">
-            <img
-              src="img/IMG_-2xmdbc.jpg"
-              style="width: 222px"
-              class="card-img-top rounded-0 border border-5 border-white mx-auto"
-              alt="..."
-            />
-
-            <div class="card-body cardcenter">
-              <h5 class="card-title fs-3 fw-semibold text-color">
-                Sohail Akhtar Hussain Shaikh
-              </h5>
-              <div class="card-text">
-                <p class="web-name text-color">
-                  Graphics designer & Web Developer
-                </p>
-                <button class="btn btn-secondary rounded-5 shadow mt-3">
-                  Download CV
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetiana Zapohozhets - Frontend Developer</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Sohail Shaikh</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <button
-                  class="btn btn-primary rounded-5 shadow-lg mt-3 bttns border-0"
-                >
-                  Hire Me
-                </button>
-              </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#technologies">TECHNOLOGIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">EXPERIENCE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
-        </div>
+        </nav>
+    </header>
 
-        <div class="container backchnges">
-          <div class="container cards-container px-5 py-1 mt-4">
-            <h2 class="heading fw-semibold my-5">About Me</h2>
+    <!-- Hero Section -->
+    <section class="hero-section d-flex justify-content-center text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="display-4 fw-bold text-primary mb-4">FRONTEND DEVELOPER</h1>
+                    <p class="lead text-light mb-4">I am Sohail Shaikh, Dedicated web developer with a solid foundation in JavaScript, React, and backend technologies. I build user-friendly, fast, and secure applications that enhance user experience.</p>
+                    <a href="#projects" class="btn btn-outline-primary rounded-pill px-4 py-2">VIEW MY WORK</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-primary mb-5" data-aos="fade-up">MY SERVICES</h2>
             <div class="row">
-              <div class="col-lg-6 col-sm-12">
-                <p class="text-colorss fw-semibold p-3">
-                  Hello, I am Shaikh Sohail. I am passionate about UI/UX design
-                  and Web Design. I am not only skilled Front-end Developer
-                  master of graphics disign tools such as photoshop and sketch
-                </p>
-              </div>
-              <div class="col-lg-6 col-sm-12">
-                <div class="d-flex align-items-center flex-wrap">
-                  <p class="age text-center verify text-colorss fw-semibold">
-                    Age
-                  </p>
-                  <p class="age-number text-colorss fw-semibold">22</p>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-display text-primary me-2 fs-4"></i>
+                            <h3 class="fs-5 mb-0">Website Development</h3>
+                        </div>
+                        <p class="text-muted">I create responsive websites with a focus on clean design. Whether it's a landing page or a business website, I can bring your vision to life.</p>
+                    </div>
                 </div>
-                <div class="d-flex align-items-center flex-wrap">
-                  <p class="Email verify text-center text-colorss fw-semibold">
-                    Email
-                  </p>
-                  <p class="Emails text-colorss fw-semibold">
-                    shaikhsohail10m@gmail.com
-                  </p>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-palette text-success me-2 fs-4"></i>
+                            <h3 class="fs-5 mb-0">Web Design</h3>
+                        </div>
+                        <p class="text-muted">I can design your website from scratch. I create professional, simple, and user-friendly designs that match your brand and goals.</p>
+                    </div>
                 </div>
-                <div class="d-flex align-items-center flex-wrap">
-                  <p class="Phone verify text-colorss text-center fw-semibold">
-                    phone
-                  </p>
-                  <p class="phone-number text-start text-colorss fw-semibold">
-                    9321192167,7304636336
-                  </p>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-wordpress text-purple me-2 fs-4"></i>
+                            <h3 class="fs-5 mb-0">WordPress Development</h3>
+                        </div>
+                        <p class="text-muted">I build websites on WordPress, making them easy to update and manage. It's a great choice for blogs, small businesses, or portfolios.</p>
+                    </div>
                 </div>
-                <div class="d-flex align-items-center flex-wrap">
-                  <p
-                    class="Address verify text-colorss text-center fw-semibold"
-                  >
-                    Address
-                  </p>
-                  <p class="full-adress text-start text-colorss fw-semibold">
-                    C/P Line/08 Cheetah Camp trombay Mumbai.88
-                  </p>
-                </div>
-              </div>
             </div>
-          </div>
-          <div class="container cards-containers px-5 py-1 mt-4">
-            <h2 class="heading fw-semibold my-3">Professional Skills</h2>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="technologies" class="py-5 bg-darker">
+        <div class="container">
+            <h2 class="section-title text-primary mb-3" data-aos="fade-up">SKILLS</h2>
+            <p class="text-center mb-5" data-aos="fade-up" data-aos-delay="100">The skills, tools and technologies I use:</p>
+            
+            <div class="row justify-content-center text-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="48" height="48">
+                            <path fill="#E44D26" d="M19.5 3.5h89l-8.1 91.2L64 124l-36.4-29.3L19.5 3.5z"></path>
+                            <path fill="#F16529" d="M64 116.1l29.5-24.1 6.9-77.4H64v101.5z"></path>
+                            <path fill="#EBEBEB" d="M64 54.2H41.9l1.2 13.5H64v13.5H41.9l2.3 25.6L64 116v-13.5H50.7l-.8-9.1H64v-13.5H50.7l-.8-9.1H64V54.2z"></path>
+                            <path fill="#FFF" d="M64 54.2h22.1l-1.2 13.5H64v13.5h20.1l-2.3 25.6L64 116v-13.5h13.3l.8-9.1H64v-13.5h13.3l.8-9.1H64V54.2z"></path>
+                        </svg>
+                        <p>HTML5</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="48" height="48">
+                            <path fill="#1572B6" d="M19.5 3.5h89l-8.1 91.2L64 124l-36.4-29.3L19.5 3.5z"></path>
+                            <path fill="#33A9DC" d="M64 116.1l29.5-24.1 6.9-77.4H64v101.5z"></path>
+                            <path fill="#EBEBEB" d="M64 54.2H41.9l1.2 13.5H64v13.5H41.9l2.3 25.6L64 116v-13.5H50.7l-.8-9.1H64v-13.5H50.7l-.8-9.1H64V54.2z"></path>
+                            <path fill="#FFF" d="M64 54.2h22.1l-1.2 13.5H64v13.5h20.1l-2.3 25.6L64 116v-13.5h13.3l.8-9.1H64v-13.5h13.3l.8-9.1H64V54.2z"></path>
+                        </svg>
+                        <p>CSS3</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="skill-icon">
+                        <i class="bi bi-filetype-js text-warning"></i>
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4" data-aos="zoom-in" data-aos-delay="250">
+                    <div class="skill-icon">
+                        <i class="bi bi-bootstrap text-purple"></i>
+                        <p>Bootstrap</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="skill-icon">
+                        <i class="bi bi-git text-danger"></i>
+                        <p>Git</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4" data-aos="zoom-in" data-aos-delay="350">
+                    <div class="skill-icon">
+                        <i class="bi bi-wordpress text-info"></i>
+                        <p>WordPress</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="skill-icon">
+                        <i class="bi bi-phone text-success"></i>
+                        <p>Responsive</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4" data-aos="zoom-in" data-aos-delay="450">
+                    <div class="skill-icon">
+                        <i class="bi bi-database text-warning"></i>
+                        <p>MySQL</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="skill-icon">
+                        <i class="bi bi-filetype-php text-purple"></i>
+                        <p>PHP</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4" data-aos="zoom-in" data-aos-delay="550">
+                    <div class="skill-icon">
+                        <i class="bi bi-braces text-info"></i>
+                        <p>jQuery</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4" data-aos="zoom-in" data-aos-delay="650">
+                    <div class="skill-icon">
+                        <i class="bi bi-filetype-tsx text-info"></i>
+                        <p>TypeScript</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4" data-aos="zoom-in" data-aos-delay="750">
+                    <div class="skill-icon">
+                        <i class="bi bi-filetype-css text-primary"></i>
+                        <p>CSS3/SCSS</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4" data-aos="zoom-in" data-aos-delay="800">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" width="48" height="48">
+                            <polygon fill="#DD0031" points="125,0 250,68.75 250,181.25 125,250 0,181.25 0,68.75"></polygon>
+                            <polygon fill="#C3002F" points="125,0 125,31.25 125,31.25 125,31.25 125,31.25 125,31.25 125,31.25 125,31.25"></polygon>
+                            <path fill="#FFFFFF" d="M125,31.25l-93.75,150h187.5L125,31.25z M125,68.75l31.25,50h-62.5L125,68.75z"></path>
+                        </svg>
+                        <p>Angular</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4" data-aos="zoom-in" data-aos-delay="850">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="48" height="48">
+                            <circle fill="#61DAFB" cx="64" cy="64" r="11.4"></circle>
+                            <path fill="none" stroke="#61DAFB" stroke-width="5" d="M64,97.8c-17.7,0-32-15.1-32-33.8s14.3-33.8,32-33.8s32,15.1,32,33.8S81.7,97.8,64,97.8z"></path>
+                            <path fill="none" stroke="#61DAFB" stroke-width="5" d="M47.5,87.3c-8.8-15.3-8.8-34.7,0-50c8.8-15.3,23.1-25.3,39.5-25.3s30.7,10,39.5,25.3c8.8,15.3,8.8,34.7,0,50c-8.8,15.3-23.1,25.3-39.5,25.3S56.3,102.7,47.5,87.3z"></path>
+                        </svg>
+                        <p>React</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4" data-aos="zoom-in" data-aos-delay="1400">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-database" viewBox="0 0 16 16">
+                            <path d="M4.318 2.687C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4c0-.374.356-.875 1.318-1.313M13 5.698V7c0 .374-.356.875-1.318 1.313C10.766 8.729 9.464 9 8 9s-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777A5 5 0 0 0 13 5.698M14 4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13zm-1 4.698V10c0 .374-.356.875-1.318 1.313C10.766 11.729 9.464 12 8 12s-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777A5 5 0 0 0 13 8.698m0 3V13c0 .374-.356.875-1.318 1.313C10.766 14.729 9.464 15 8 15s-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13s3.022-.289 4.096-.777c.324-.147.633-.323.904-.525"/>
+                          </svg>
+                        <p>MongoDB</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-primary mb-5" data-aos="fade-up">WORK EXPERIENCE</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-badge"><i class="bi bi-briefcase"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Fig Studio</h4>
+                            <p><small class="text-muted"><i class="bi bi-building me-1"></i>Aug 2023 – Aug 2024</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <ul>
+                                <li>Worked on React, Angular, and Ionic projects, developing responsive UI screens and reusable components.</li>
+                                <li>Integrated RESTful APIs into frontend applications using React and Angular for dynamic data updates.</li>
+                                <li>Designed modular UI components and templates, cutting development time by 30% and improving code scalability.</li>
+                                <li>Assisted in writing unit tests with Jasmine, Karma (Angular) and Jest (React) to ensure component stability.</li>
+                                <li>Improved mobile responsiveness by using Bootstrap, Tailwind CSS, and the Ionic Framework for hybrid apps.</li>
+                                <li>Used Git for version control and collaborated on tasks like UI bug fixing, performance optimization, and library integrations (AOS, Swiper.js).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-badge"><i class="bi bi-briefcase"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Frontend developer Freelance</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <ul>
+                                <li>Created fully responsive and custom websites using tools like PHP, MySQL, JavaScript, React, and Next.js to match each client's needs.</li>
+                                <li>Built both the frontend and backend from scratch, including dashboards, admin panels, and interactive features.</li>
+                                <li>Added features like payment systems, email services (SMTP), and contact forms to make the websites more useful.</li>
+                                <li>Worked closely with clients to understand what they wanted, planned everything clearly, and delivered work on time.</li>
+                                <li>Worked on real projects like tfoco.com, Bicxo, and Global Lashing, handling both the design and the coding myself.</li>
+                                <li>Wrote clean, fast, and SEO-friendly code that worked well on all browsers and hosted the websites on platforms like Vercel and shared hosting.</li>
+                                <li>Built strong relationships with clients by providing regular updates, ongoing support, and quick improvements when needed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-darker">
+        <div class="container">
+            <h2 class="section-title text-primary mb-5" data-aos="fade-up">PROJECTS</h2>
+            
             <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12 my-4">
-                <div class="progressbar">
-                  <h6 class="text-colorss d-inline fw-semibold">HTML</h6>
-                  <div class="progress shadow">
-                    <div
-                      class="progress-bar bg-success"
-                      role="progressbar"
-                      aria-label="Basic example"
-                      style="width: 85%"
-                      aria-valuenow="100"
-                      aria-valuemin=""
-                      aria-valuemax="100"
-                    >
-                      90%
+                <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Appstokri</h3>
+                            <p><strong>Role:</strong> Frontend Developer</p>
+                            <p><strong>Tech Stack:</strong> React, Material UI, Tailwind CSS, MongoDB</p>
+                            <p>Developed and maintained the frontend of a shopping/commerce platform. Integrated REST APIs, styled UI with Material UI and Tailwind CSS, and handled database connectivity using MongoDB.</p>
+                            <p><strong>Key Responsibilities:</strong></p>
+                            <ul>
+                                <li>Designed responsive UI components</li>
+                                <li>Seamlessly integrated backend APIs</li>
+                                <li>Connected and tested MongoDB collections with frontend forms and data</li>
+                            </ul>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-12 my-4">
-                <div class="progressbar">
-                  <h6 class="text-colorss d-inline fw-semibold">CSS</h6>
-                  <div class="progress shadow">
-                    <div
-                      class="progress-bar bg-info"
-                      role="progressbar"
-                      aria-label="Basic example"
-                      style="width: 75%"
-                      aria-valuenow="100"
-                      aria-valuemin=""
-                      aria-valuemax="100"
-                    >
-                      75%
+                <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Meet-up Freelance Project</h3>
+                            <p><strong>Role:</strong> Frontend Developer</p>
+                            <p><strong>Tech Stack:</strong>React, Material UI, Tailwind CSS </p>
+                            <p>A freelance client project allowing users to create, manage, and join meetups/events. You handled both frontend and backend functionality.</p>
+                            <p><strong>Key Responsibilities:</strong></p>
+                            <ul>
+                                <li>Developed user registration/login</li>
+                                <li>Created event scheduling and management features</li>
+                                <li>Implemented dynamic data rendering based on user interaction</li>
+                            </ul>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-12 my-4">
-                <div class="progressbar">
-                  <h6 class="text-colorss d-inline fw-semibold">BOOTSTRAP</h6>
-                  <div class="progress shadow">
-                    <div
-                      class="progress-bar bg-secondary"
-                      role="progressbar"
-                      aria-label="Basic example"
-                      style="width: 92%"
-                      aria-valuenow="100"
-                      aria-valuemin=""
-                      aria-valuemax="100"
-                    >
-                      80%
+                <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Bicxo Website</h3>
+                            <p><strong>Role:</strong> Web Developer</p>
+                            <p><strong>Tech Stack:</strong> PHP, MySQL, SMTP, HTML, CSS, JavaScript</p>
+                            <p>Built the entire Bicxo business website from scratch. Managed frontend and backend logic, database structure, and integrated an SMTP-based email system.</p>
+                            <p><strong>Key Responsibilities:</strong></p>
+                            <ul>
+                                <li>Developed frontend UI and page structure</li>
+                                <li>Wrote PHP backend logic for forms and dynamic content</li>
+                                <li>Set up MySQL database</li>
+                                <li>Integrated SMTP for contact/email features</li>
+                            </ul>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-12 my-4">
-                <div class="progressbar">
-                  <h6 class="text-colorss d-inline fw-semibold">JAVASCRIPT</h6>
-                  <div class="progress shadow">
-                    <div
-                      class="progress-bar bg-warning"
-                      role="progressbar"
-                      aria-label="Basic example"
-                      style="width: 20%"
-                      aria-valuenow="100"
-                      aria-valuemin=""
-                      aria-valuemax="100"
-                    >
-                      15%
+                <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Global Lashing Website</h3>
+                            <p><strong>Role:</strong> Web Developer</p>
+                            <p><strong>Tech Stack:</strong> PHP, HTML, CSS, JavaScript, SMTP</p>
+                            <p>Created the full website independently, covering both frontend and backend. Implemented an email system via SMTP for contact/inquiry forms.</p>
+                            <p><strong>Key Responsibilities:</strong></p>
+                            <ul>
+                                <li>Designed the entire frontend UI</li>
+                                <li>Built backend logic using PHP</li>
+                                <li>Configured mail system using SMTP</li>
+                                <li>Ensured responsive and fast performance</li>
+                            </ul>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-12 my-4">
-                <div class="progressbar">
-                  <h6 class="text-colorss d-inline fw-semibold">PHP</h6>
-                  <div class="progress shadow">
-                    <div
-                      class="progress-bar pe-2 text-end bg-danger"
-                      role="progressbar"
-                      aria-label="Basic example"
-                      style="width: 90%"
-                      aria-valuenow="100"
-                      aria-valuemin=""
-                      aria-valuemax="100"
-                    >
-                      90%
+                <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">TFOCO Website (Freelance Project)</h3>
+                            <p><strong>Role:</strong> Frontend Developer (Team Collaboration)</p>
+                            <p><strong>Tech Stack:</strong> Next.js, JavaScript, Vercel, Payment Gateway APIs</p>
+                            <p>Contributed to a commercial Next.js project hosted on Vercel. Assisted in building a payment gateway, developed the client-side dashboard, and built reusable frontend components.</p>
+                            <p><strong>Key Responsibilities:</strong></p>
+                            <ul>
+                                <li>Helped implement payment system logic and flow</li>
+                                <li>Built key dashboard screens with reusable components</li>
+                                <li>Worked on deploying and optimizing the project using Vercel</li>
+                            </ul>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-12 my-4">
-                <div class="progressbar">
-                  <h6 class="text-colorss d-inline fw-semibold">Coreldraw</h6>
-                  <div class="progress shadow">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-label="Basic example"
-                      style="width: 20%"
-                      aria-valuenow="100"
-                      aria-valuemin=""
-                      aria-valuemax="100"
-                    >
-                      10%
+                <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Xeim (Freelance Ongoing Project)</h3>
+                            <p><strong>Role:</strong> Frontend Developer</p>
+                            <p><strong>Tech Stack:</strong> React.js, TypeScript, MongoDB</p>
+                            <p>A subscription-based school/academy management system designed to handle students, teachers, courses, payments, and admin operations. You’re currently developing both frontend and backend, focusing on scalability and responsiveness.</p>
+                            <p><strong>Key Responsibilities:</strong></p>
+                            <ul>
+                                <li>Creating modular UI using Next.js and TypeScript</li>
+                                <li>Planning user flows and building dashboards</li>
+                            </ul>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="container cards-container hrlinetwo px-5 py-1 mt-4">
-            <h2 class="heading fw-semibold my-5">Work Experience</h2>
+        </div>
+    </section>
 
-            <div class="card circleline border ms-4 mb-4">
-              <div class="card-body afterone backchnge">
-                <h5 class="card-title fw-bold text-colors">
-                  Front-end Developer
-                  <span class="fw-semibold text-colorss">as Fresher</span>
-                </h5>
-
-                <h6
-                  class="card-subtitle mb-2 text-muted fw-semibold text-colorss"
-                >
-                  2022
-                </h6>
-                <p class="card-text fw-semibold text-colorss">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Magni eos maxime sequi aspernatur molestiae beatae fugiat,
-                  suscipit ! Soluta doloremque possimus inventore ducimus, dolor
-                  optio.
-                </p>
-              </div>
-            </div>
-            <div class="card circleline border ms-4 mt-4">
-              <div class="card-body afterone backchnge">
-                <h5 class="card-title fw-bold text-colors">
-                  Front-end Developer
-                  <span class="fw-semibold text-colorss">as Fresher</span>
-                </h5>
-
-                <h6
-                  class="card-subtitle mb-2 text-muted fw-semibold text-colorss"
-                >
-                  2022
-                </h6>
-                <p class="card-text fw-semibold text-colorss">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Magni eos maxime sequi aspernatur molestiae beatae fugiat,
-                  suscipit ! Soluta doloremque possimus inventore ducimus, dolor
-                  optio.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="container cards-containers hrline px-5 py-1 mt-4">
-            <h2 class="heading fw-semibold my-5">Education</h2>
-
-            <div class="card circleline border ms-4">
-              <div class="card-body afterone backchnge">
-                <h5 class="card-title text-colors fw-bolder">
-                  Bechelor Of Management Studies
-                  <span class="fw-semibold text-colorss">
-                    From Dr.Babsaheb Ambedker</span
-                  >
-                </h5>
-
-                <h6
-                  class="card-subtitle mb-2 text-muted fw-semibold text-colorss"
-                >
-                  2017-2021
-                </h6>
-                <p class="card-text fw-semibold text-colorss">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Magni eos maxime sequi aspernatur molestiae beatae fugiat,
-                  suscipit ! Soluta doloremque possimus inventore ducimus, dolor
-                  optio.
-                </p>
-              </div>
-            </div>
-
-            <div class="card circleline border mt-4 ms-4">
-              <div class="card-body afterone backchnge">
-                <h5 class="card-title text-colors fw-bold">
-                  Commerce<span class="fw-semibold text-colorss">
-                    From Swami Ramkrishna paramhans jr clg</span
-                  >
-                </h5>
-
-                <h6
-                  class="card-subtitle mb-2 text-muted fw-semibold text-colorss"
-                >
-                  2015-2017
-                </h6>
-                <p class="card-text fw-semibold text-colorss">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Magni eos maxime sequi aspernatur molestiae beatae fugiat,
-                  suscipit ! Soluta doloremque possimus inventore ducimus, dolor
-                  optio.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="container cards-container px-5 py-1 mt-4">
-            <h2 class="heading fw-semibold my-5">Contacts</h2>
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
             <div class="row">
-              <div class="col-lg-6">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <div class="mb-3">
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="exampleFormControlInput1"
-                        placeholder="Your name"
-                      />
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+<h2 class="contact-section-title mb-4">DO YOU HAVE A PROJECT TO DISCUSS?</h2>
+                    <button class="btn btn-outline-primary d-flex align-items-center gap-2 mb-4">
+                        GET IN TOUCH <i class="bi bi-envelope"></i>
+                    </button>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-uppercase fs-6 mb-2">Contact</h3>
+                        <p class="text-primary mb-4">shaikhsohail10m@gmail.com</p>
+                        
+                        <h3 class="text-uppercase fs-6 mb-2">Social Media</h3>
+                        <div class="d-flex gap-2">
+                            <a href="https://www.linkedin.com/in/sohail-shaikhs" class="social-icon">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="bi bi-twitter-x"></i>
+                            </a>
+                        </div>
                     </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="mb-3">
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="exampleFormControlInput1"
-                        placeholder="Your-E-Mail"
-                      />
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="">
-                      <textarea
-                        class="form-control"
-                        placeholder="Your Massage"
-                        id="floatingTextarea"
-                        rows="5"
-                      ></textarea>
-                    </div>
-                  </div>
                 </div>
-              </div>
-
-              <div class="col-lg-6 mt-3">
-                <div class="d-flex align-items-center flex-wrap">
-                  <p class="Email verify fw-semibold text-colorss">Email</p>
-                  <p class="Emails fw-semibold text-colorss">
-                    shaikhsohail10m@gmail.com
-                  </p>
+                
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h3 class="text-uppercase fs-6 mb-3">Contact Form</h3>
+                    <form id="contactForm" action="contact.php" method="POST">
+                        <div class="mb-3">
+                            <input type="text" class="form-control bg-transparent" id="name" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control bg-transparent" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control bg-transparent" id="message" name="message" rows="4" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">SEND</button>
+                    </form>
+                    <div id="formMessage" class="mt-3"></div>
                 </div>
-                <div class="d-flex align-items-center flex-wrap">
-                  <p class="Phone verify fw-semibold text-colorss">phone</p>
-                  <p class="phone-number text-start fw-semibold text-colorss">
-                    9321192167,7304636336
-                  </p>
-                </div>
-                <div class="d-flex align-items-center flex-wrap">
-                  <p class="Address verify fw-semibold text-colorss">Address</p>
-                  <p class="full-adress text-start fw-semibold text-colorss">
-                    C/P Line/08 Cheetah Camp trombay Mumbai.88
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-12 mt-4">
-                <button
-                  type="button"
-                  class="btn btn-success border-0 rounded-5 bttn btn-send"
-                >
-                  Send
-                </button>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="topbar text-center py-3">
-        <div class="Text-name">
-          <p class="m-0 fw-semibold">Sohail Akhtar Hussain Shaikh</p>
-        </div>
-        <div
-          class="icons d-flex align-items-center justify-content-center gap-2"
-        >
-          <a href="https://twitter.com/Sohailnewbie"
-            ><i class="bi bi-twitter text-icon"></i
-          ></a>
-          <a href="https://www.facebook.com/sohailshaikhrock"
-            ><i class="bi bi-facebook text-icon"></i
-          ></a>
-          <a href="https://www.instagram.com/igsohaill/"
-            ><i class="bi bi-instagram text-icon"></i
-          ></a>
-          <a href=""><i class="bi bi-github text-icon"></i></a>
-        </div>
-      </div>
-    </div>
-  </body>
+    </section>
+
+    <!-- Footer -->
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
 </html>
